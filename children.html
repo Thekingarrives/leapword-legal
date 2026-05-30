@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeapWord 儿童隐私保护说明</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background: #F2F2F7; color: #1C1C1E; line-height: 1.8; -webkit-font-smoothing: antialiased; }
+    .container { max-width: 680px; margin: 0 auto; padding: 40px 20px 80px; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { width: 64px; height: 64px; background: linear-gradient(135deg, #34C759, #30D158); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 28px; color: white; font-weight: 700; }
+    .header h1 { font-size: 24px; font-weight: 700; margin-bottom: 6px; }
+    .header .subtitle { font-size: 14px; color: #8E8E93; }
+    .card { background: white; border-radius: 16px; padding: 24px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+    .card h2 { font-size: 18px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .card h2 .icon { font-size: 20px; }
+    .card p, .card li { font-size: 15px; color: #3C3C43; }
+    .card ul { padding-left: 20px; margin: 8px 0; }
+    .card li { margin-bottom: 8px; }
+    .core { background: #F0FDF4; border: 2px solid #34C759; border-radius: 16px; padding: 20px 24px; margin-bottom: 20px; text-align: center; }
+    .core .big { font-size: 20px; font-weight: 700; color: #1C7C2C; margin-bottom: 8px; }
+    .core p { font-size: 14px; color: #22863A; }
+    .highlight { background: #F0F9FF; border-left: 4px solid #007AFF; border-radius: 0 10px 10px 0; padding: 14px 18px; font-size: 14px; color: #007AFF; margin: 12px 0; }
+    .highlight-orange { background: #FFF7F0; border-left: 4px solid #FF9500; border-radius: 0 10px 10px 0; padding: 14px 18px; font-size: 14px; color: #C53D00; margin: 12px 0; }
+    .faq { background: #F9F9FB; border-radius: 12px; padding: 16px 20px; margin: 12px 0; }
+    .faq .q { font-weight: 600; color: #1C1C1E; font-size: 15px; margin-bottom: 6px; }
+    .faq .a { font-size: 14px; color: #3C3C43; }
+    .divider { height: 1px; background: #E5E5EA; margin: 16px 0; }
+    .footer { text-align: center; padding: 32px 0; font-size: 13px; color: #8E8E93; }
+    .legal { background: #F9F9FB; border-radius: 12px; padding: 16px; margin: 12px 0; }
+    .legal p { font-size: 13px; color: #8E8E93; margin-bottom: 6px; }
+    @media (prefers-color-scheme: dark) { body { background: #000; color: #F5F5F7; } .card { background: #1C1C1E; } .card h2 { color: #F5F5F7; } .card p, .card li { color: #AEAEB2; } .core { background: #001A0A; border-color: #34C759; } .core .big { color: #6AE87A; } .core p { color: #34C759; } .highlight { background: #001A33; color: #4DA6FF; } .highlight-orange { background: #1A0E00; color: #FFB84D; } .faq { background: #2C2C2E; } .faq .q { color: #F5F5F7; } .faq .a { color: #AEAEB2; } .legal { background: #1C1C1E; } }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="logo">L</div>
+    <h1>儿童隐私保护说明</h1>
+    <p class="subtitle">LeapWord · 2026年5月27日</p>
+  </div>
+
+  <div class="core">
+    <div class="big">🛡️ 我们重视儿童隐私保护</div>
+    <p>LeapWord 不针对 14 岁以下儿童设计。使用本App需要 Apple ID 登录，13 岁以下用户应在监护人协助下操作。</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">🎯</span> 我们的核心立场</h2>
+    <ul>
+      <li>✅ <strong>不主动收集</strong>：我们不主动收集可识别未成年人身份的信息</li>
+      <li>✅ <strong>登录使用</strong>：所有用户需 Apple ID 登录，每个词库前 100 词免费</li>
+      <li>✅ <strong>最小化原则</strong>：仅请求相册写入和语音播放权限</li>
+      <li>✅ <strong>无追踪、无广告</strong>：不追踪行为，不投放广告</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">👨‍👩‍👧</span> 家长常见问题 FAQ</h2>
+
+    <div class="faq">
+      <div class="q">Q：我的孩子使用 LeapWord 会留下什么信息？</div>
+      <div class="a">A：需要 Apple ID 登录，我们会收到 Apple 提供的唯一标识符（不含密码或手机号）。学习进度存储在本地，登录后可选同步到云端。</div>
+    </div>
+
+    <div class="faq">
+      <div class="q">Q：LeapWord 会向第三方分享我孩子的信息吗？</div>
+      <div class="a">A：本App仅接入 Supabase（云端同步）和 Apple（登录认证），不接入任何统计、广告或分析 SDK。</div>
+    </div>
+
+    <div class="faq">
+      <div class="q">Q：LeapWord 有广告吗？</div>
+      <div class="a">A：没有。本App不含任何广告内容。</div>
+    </div>
+
+    <div class="faq">
+      <div class="q">Q：如何清除孩子的数据？</div>
+      <div class="a">A：退出登录即可清除云端数据。卸载 App 可清除所有本地数据。或在 App 内"设置 → 数据管理 → 一键归零"。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">🛡️</span> 保护措施</h2>
+    <ul>
+      <li>🔐 <strong>最小权限</strong>：仅请求必要的相册写入和语音播放权限</li>
+      <li>🔐 <strong>无追踪</strong>：不追踪用户行为，不使用分析工具</li>
+      <li>🔐 <strong>无第三方广告 SDK</strong></li>
+      <li>🔐 <strong>快速响应</strong>：隐私相关投诉 15 个工作日内响应</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="icon">📞</span> 联系反馈</h2>
+    <ul>
+      <li>📧 <strong>邮箱</strong>：515621051@qq.com</li>
+      <li>📱 <strong>App内</strong>：设置 → 关于 → 联系反馈</li>
+    </ul>
+    <div class="highlight-orange">
+      如发现误收集儿童个人信息，我们将立即删除并依法处理。
+    </div>
+  </div>
+
+  <div class="legal">
+    <p><strong>法律声明</strong></p>
+    <p>• 本App不面向未满 14 周岁儿童提供服务</p>
+    <p>• 使用需 Apple ID 登录</p>
+    <p>• 本说明为《隐私政策》的补充</p>
+  </div>
+
+  <div class="footer">
+    <p>LeapWord · 儿童隐私保护说明 · 2026</p>
+  </div>
+
+</div>
+</body>
+</html>
